@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash's Sandbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Yash's_Sandbox<span class="cursor">_</span></div>
+        <div class="links">
+            <a href="#writings">/writings</a>
+            <a href="#data">/data_viz</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Experiments in <span class="gradient-text">Data & Prose</span></h1>
+            <p>A collection of statistical deep dives, random thoughts, and things I'm currently optimizing.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="writings">
+            <h2 class="section-title">Latest Logs</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <span class="tag">Analysis</span>
+                    <h3>The Physics of Wok Hei</h3>
+                    <p>Breaking down the thermodynamics required to get that perfect sear on a home burner.</p>
+                    <a href="#" class="read-more">Read Entry &rarr;</a>
+                </article>
+
+                <article class="card">
+                    <span class="tag">Travel</span>
+                    <h3>Jeju Island Itinerary</h3>
+                    <p>Optimizing a 3-day route through Seogwipo to maximize sight-seeing vs. driving time.</p>
+                    <a href="#" class="read-more">Read Entry &rarr;</a>
+                </article>
+                
+                <article class="card">
+                    <span class="tag">Finance</span>
+                    <h3>The Points Strategy</h3>
+                    <p>A look at how I'm shifting my credit card rotation for 2026 travel goals.</p>
+                    <a href="#" class="read-more">Read Entry &rarr;</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="data">
+            <h2 class="section-title">The Playground</h2>
+            <div class="chart-wrapper">
+                <div class="chart-card">
+                    <h3>Sample Analysis: Caffeine vs. Coding Output</h3>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yash. Built in the Sandbox.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
